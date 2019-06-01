@@ -1,0 +1,11 @@
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 0;
+    bottom: -480;
+    width: 100%;
+    color: aquamarine;
+    background-image: url('/assets/img/bk.jpg') ;
+    text-align: center;
+ }
+

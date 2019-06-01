@@ -1,0 +1,18 @@
+.navb-img{
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-brand{
+    
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lr{
+    margin-right: 30px;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+    }

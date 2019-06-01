@@ -1,0 +1,9 @@
+.col1{
+    z-index: -1;
+}
+
+
+.input-group-prepend{
+    margin-right: -5px;
+    margin-top: 5px;
+}

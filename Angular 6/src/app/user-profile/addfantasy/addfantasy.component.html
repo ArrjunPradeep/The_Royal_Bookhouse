@@ -1,0 +1,60 @@
+<div class="container-fluid add">
+  <div class="row">
+    <div class="col col1">
+
+    </div>
+    <div class="col"><br>
+      <form (ngSubmit)="AddProduct()">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">BOOK_____ID</span>
+          </div>
+          <input type="text" class="form-control" name="p_id" placeholder="BOOK_ID" [(ngModel)]="productItem.productId" >
+        </div>
+    
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">BOOK_GENRE</span>
+          </div>
+          <input type="text" class="form-control" name="p_genre" placeholder="BOOK_GENRE" [(ngModel)]="productItem.productGenre">
+        </div>
+    
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">BOOK_NAME</span>
+          </div>
+          <input type="text" class="form-control" name="p_name" placeholder="BOOK_NAME" [(ngModel)]="productItem.productName">
+        </div>
+    
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">BOOK_AUTHOR</span>
+          </div>
+          <input type="text" class="form-control" name="p_author" placeholder="BOOK_AUTHOR" [(ngModel)]="productItem.productAuthor">
+        </div>
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">BOOK_PRICE</span>
+          </div>
+          <input type="text" class="form-control" name="p_price" placeholder="BOOK_PRICE" [(ngModel)]="productItem.productPrice">
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">IMAGE__URL</span>
+          </div>
+          <input type="text" class="form-control" name="p_img" placeholder="IMAGE_URL" [(ngModel)]="productItem.productImage">
+        </div>
+
+        <div class="col text-center">
+          <button type="submit" class="btn btn-danger">SUBMIT</button>
+        </div><br>
+
+      </form>
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+</div>

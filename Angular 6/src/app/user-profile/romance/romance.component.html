@@ -1,0 +1,45 @@
+<div class="row">
+  <ng-container *ngFor='let product of products'>
+<div class="column" *ngIf = "product.productGenre=='romance'">
+  <div class="card">
+    <img src="/assets/img/{{product.productImage}}" class="img" alt="John" style="width:100%">
+    <div class="container">
+      <h3>{{product.productName}}</h3>
+      <p class="title">{{product.productAuthor}}</p>
+      <p>{{product.productPrice|currency:"INR"}}</p>
+      <!-- <p>example@example.com</p> -->
+      <p><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">BUY</button></p>
+    </div>
+  </div>
+</div></ng-container>
+</div>
+
+
+<!-- The Modal -->
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">THE ROYAL BOOKHOUSE</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+        <img src="/assets/img/tnk.jpg" alt="Nature" class="responsive" width="600" height="400">
+      </div>
+      
+      <!-- Modal footer -->
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div> -->
+      
+    </div>
+  </div>
+</div>
+
+
+
